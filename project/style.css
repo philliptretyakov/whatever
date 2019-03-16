@@ -1,0 +1,85 @@
+
+.container{
+height: 100vh;
+width: 100vw;
+background-image: url(background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+margin: 0%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+z-index: 0;
+}
+
+.modal{
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /* background: white; */
+
+}
+
+.modal-el{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    filter: url(#filter);
+    /* background: white; */
+
+}
+
+.logo{
+    background-image: url(wim.png); 
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 100;
+    background-size: cover;
+    right: 5mm;
+    top: 5mm;
+    
+}
+
+.menu {
+    position: absolute;
+    bottom: 5mm;
+    left: 5mm;
+    z-index: 1;
+    color: gray;
+}
+
+.line {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+
+}
+
+.line:hover {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+
+}
+
+html{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+
+
+/* p{
+    margin: 0%;
+    color: white;
+    font-weight: 100;
+} */
+
+body{
+    margin: 0%;
+}
